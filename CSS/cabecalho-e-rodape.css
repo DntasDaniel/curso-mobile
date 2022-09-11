@@ -1,21 +1,21 @@
 html {
-    scroll-behavior: smooth;
-  }
-
-.principal{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(75, 75, 234);
-    opacity: 95%;
+  scroll-behavior: smooth;
 }
 
-.menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.principal {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(75, 75, 234);
+  opacity: 95%;
 }
 
-.menu p{
-    margin-right: 15px;
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu p {
+  margin-right: 15px;
 }

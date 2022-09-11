@@ -1,13 +1,18 @@
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    background-color: blue;
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
 }
 
-.card{
-    margin: 15px;
-    background-color: aliceblue;
-    display: block;
+.card {
+  margin: 15px;
+  background-color: aliceblue;
+  display: block;
+}
+
+.card-ancora {
+  padding: 10px;
+  background-color: blueviolet;
 }
