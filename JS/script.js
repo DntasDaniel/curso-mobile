@@ -19,8 +19,6 @@ function processaFormulario(event){
     dados.mensagem = event.target.elements["mensagem"].value;
 
     const jsonDados = JSON.stringify(dados);
-    console.log(jsonDados);
-    console.log(JSON.parse(jsonDados));
 
     for (const [key, value] of Object.entries(dados)) {
         console.log(`${key}: ${value}`);

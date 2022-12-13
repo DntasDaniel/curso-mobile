@@ -19,3 +19,11 @@ html {
 .menu a {
   margin-right: 15px;
 }
+
+.rodape {
+  width: 100%;
+  padding: 15px;
+  margin-top: 60px;
+  display: block;
+  align-items: center;
+}
