@@ -1,18 +1,40 @@
+body {
+  background-color: rgb(54, 165, 201);
+}
 .cards {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  background-color: blue;
+  justify-content: flex-start;
+  background-color: rgb(106, 106, 221);
 }
 
 .card {
   margin: 15px;
   background-color: aliceblue;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card__conteudo {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .card-ancora {
+  align-self: center;
+  text-align: center;
+  width: 50%;
   padding: 10px;
-  background-color: blueviolet;
+  background-color: rgb(127, 45, 203);
+}
+
+.card-ancora:hover {
+  background-color: rgb(98, 50, 143);
+  border-radius: 5px;
+  scale: 1.1;
 }

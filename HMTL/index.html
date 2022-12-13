@@ -10,7 +10,12 @@
   </head>
   <body>
     <!-- precisa de rolamento suave (scroll behavior - smooth) -->
-    <header></header>
+    <header>
+      <div class="principal">
+        <div class="logo">
+          <h1>MagicShop - Home</h1>
+        </div>
+    </header>
 
     <div class="banner">
       <div class="img">
@@ -19,42 +24,47 @@
           src="/IMG/banner.jpg"
           alt="Imagem dos elementos do magic"
         />
+        <h4 class="texto-banner">Produtos destinados a jogadores e adeptos de Magic!</h4>
       </div>
 
-      <div class="descricao-site">
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum
-          pariatur, nemo obcaecati error optio ratione minus recusandae sit
-          omnis molestias.
-        </p>
-      </div>
+      <aside>
+        <div class="icon-menu" onclick="abrirMenu()">
+          <img
+            src="https://s3.amazonaws.com/www-inside-design/uploads/2019/03/hamburgerheader-810x810.jpg"
+            alt="menu-aberto"
+          />
+        </div>
 
-      <div class="btn-valores">
-        <button type="button">
-          <a href="https://www.google.com/" target="_blank"
-            >Consulte nos planos</a
-          >
-        </button>
-      </div>
-    </div>
+        <div id="barra-menu">
+          <ul>
+            <li>
+              <a href="/HMTL/index.html">Home</a>
+            </li>
+            <li>
+              <a href="/HMTL/itens.html">Itens</a>
+            </li>
+            <li>
+              <a href="/HMTL/login.html">Login</a>
+            </li>
+            <li>
+              <a href="/HMTL/sobre-nos.html">Sobre nós</a>
+            </li>
+            <li>
+              <a href="/HMTL/cadastro.html">CADASTRE-SE</a>
+            </li>
 
-    <div class="principal">
-      <div class="logo">
-        <img src="" alt="" />
-        <h1>MagicShop - Home</h1>
-      </div>
-      <div class="menu">
-        <p>Home</p>
-        <p>Itens</p>
-        <p>Login</p>
-        <p>Sobre nós</p>
-      </div>
-    </div>
+          </div>
+
+          </ul>
+        </div>
+      </aside>
 
     <footer>
       <h3>Equipe</h3>
       <p><strong>Daniel Dantas Fernandes</strong></p>
       <p>Email:<strong> contato.dantas.daniel@gmail.com</strong></p>
+      <p>2022</p>
     </footer>
+    <script src="/JS/script.js"></script>
   </body>
 </html>

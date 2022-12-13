@@ -6,8 +6,8 @@ html {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: rgb(75, 75, 234);
-  opacity: 95%;
+  background-color: rgb(192, 223, 255);
+  opacity: 80%;
 }
 
 .menu {
@@ -16,6 +16,6 @@ html {
   align-items: center;
 }
 
-.menu p {
+.menu a {
   margin-right: 15px;
 }

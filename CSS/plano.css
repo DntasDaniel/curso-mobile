@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(54, 165, 201);
+}
+
+.plano {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 600px;
+  width: 600px;
+  word-break: break-all;
+}
+
+/* não está funcionando o flex-direction */

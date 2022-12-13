@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magic Cards</title>
+    <link rel="stylesheet" href="/CSS/cadastro.css" />
+    <link rel="stylesheet" href="/CSS/cabecalho-e-rodape.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="principal">
+        <div class="logo">
+          <img src="" alt="" />
+          <h1>MagicShop - Login</h1>
+        </div>
+        <div class="menu">
+          <a href="/HMTL/index.html">Home</a>
+          <a href="/HMTL/itens.html">Itens</a>
+          <a href="/HMTL/login.html">Login</a>
+        </div>
+      </div>
+    </header>
+    <fieldset class="grupo">
+      <div class="container_form">
+        <h1>Formulário de Cadastro</h1>
+        <form class="form" action="#" method="post">
+          <div class="form_grupo">
+            <label for="nome" class="form_label">Nome</label>
+            <input
+              type="text"
+              name="nome"
+              class="form_input"
+              id="nome"
+              placeholder="Nome"
+              required
+            />
+          </div>
+
+          <div class="form_grupo">
+            <label for="e-mail" class="form_label">Email</label>
+            <input
+              type="email"
+              name="email"
+              class="form_input"
+              id="email"
+              placeholder="seuemail@email.com"
+              required
+            />
+          </div>
+
+          <div class="form_grupo">
+            <label for="datanascimento" class="form_label"
+              >Data de Nascimento</label
+            >
+            <input
+              type="date"
+              name="datanascimento"
+              class="form_input"
+              id="datanascimento"
+              placeholder="Data de Nascimento"
+              required
+            />
+          </div>
+          <div class="form_grupo">
+            <label for="estadocivil" class="text">Estado civil</label>
+            <select name="estadocivil" class="dropdown" required>
+              <option selected disabled class="form_select_option" value="">
+                Selecione
+              </option>
+              <option value="Solteiro" class="form_select_option">
+                Solteiro(a)
+              </option>
+              <option value="Casado" class="form_select_option">
+                Casado(a)
+              </option>
+              <option value="Divorciado" class="form_select_option">
+                Divorciado(a)
+              </option>
+              <option value="Viúvo" class="form_select_option">Viúvo(a)</option>
+            </select>
+          </div>
+          <div class="form_grupo">
+            <span class="legenda">Sexo:</span>
+
+            <div class="radio-btn">
+              <input
+                type="radio"
+                class="form_new_input"
+                id="masculino"
+                name="sexo"
+                value="Masculino"
+                required="required"
+              />
+              <label for="masculino" class="radio_label form_label">
+                <span class="radio_new_btn"></span> Masculino</label
+              >
+            </div>
+            <div class="radio-btn">
+              <input
+                type="radio"
+                class="form_new_input"
+                id="feminino"
+                name="sexo"
+                value="Feminino"
+                required="required"
+              />
+              <label for="feminino" class="radio_label form_label">
+                <span class="radio_new_btn"></span> Feminino</label
+              >
+            </div>
+            <div class="radio-btn">
+              <input
+                type="radio"
+                class="form_new_input"
+                id="Outro"
+                name="sexo"
+                value="Outro"
+                required="required"
+              />
+              <label for="outro" class="radio_label form_label">
+                <span class="radio_new_btn"></span>Outro:<input
+                  type="genero"
+                  name="genero"
+                  class="form_input"
+                  id="genero"
+              /></label>
+            </div>
+          </div>
+
+          <div class="form_grupo">
+            <span class="legenda">Qual a sua região?</span>
+            <div class="dropdown">
+              <button
+                class="btn btn-primary dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Plano
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Prata</a></li>
+                <li><a class="dropdown-item" href="#">Ouro</a></li>
+                <li><a class="dropdown-item" href="#">Platina</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <button
+              class="btn btn-primary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Plano
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Prata</a></li>
+              <li><a class="dropdown-item" href="#">Ouro</a></li>
+              <li><a class="dropdown-item" href="#">Platina</a></li>
+            </ul>
+          </div>
+
+          <div class="form_message">
+            <label for="message" class="form_message_label">
+              Digite aqui sua sua mensagem:</label
+            >
+            <textarea
+              name="mensagem"
+              id="message"
+              cols="30"
+              rows="3"
+              class="form_input message_input"
+              required
+            ></textarea>
+          </div>
+          <div class="submit">
+            <input type="hidden" name="acao" value="enviar" />
+            <button type="submit" name="Submit" class="submit_btn">
+              Cadastrar
+            </button>
+          </div>
+        </form>
+      </div>
+      <!--container_form-->
+    </fieldset>
+
+    <footer>
+      <h3>Equipe</h3>
+      <p><strong>Daniel Dantas Fernandes</strong></p>
+      <p>Email:<strong> contato.dantas.daniel@gmail.com</strong></p>
+      <p>2022</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
